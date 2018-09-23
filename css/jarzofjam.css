@@ -1,0 +1,39 @@
+body {
+	background: #3E4649;
+	color: #f7f7f7;
+	font-family: 'Dosis';
+}
+h1 {
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+h2 {
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+p {
+	font-size: 16px;
+	color: #cdcdcd;
+}
+
+.jumbotron {
+	background: #a660e0;
+	color: white;
+	text-align: center;
+}
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: #27A967;
+	background-color: white;
+	border-color: white;
+}
