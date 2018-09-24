@@ -1,31 +1,80 @@
+/* basics */
 body {
-	background: #3E4649;
-	color: #f7f7f7;
+	background: #f7f7f7;
+	color: #873bce;
 	font-family: 'Dosis';
 }
 h1 {
 	font-weight: bold;
+	color: #f7f7f7;
+	font-size: 42px;
 	font-family: 'Montserrat';
 }
 h2 {
 	font-weight: bold;
 	font-family: 'Montserrat';
 }
+h3 {
+	font-weight: bold;
+	font-family: 'Montserrat';
+	color: #ce8839;
+}
 p {
 	font-size: 16px;
-	color: #cdcdcd;
+	color: #271a35;
 }
 
-.jumbotron {
-	background: #a660e0;
-	color: white;
+
+
+/* nav bar */
+.navbar {
+	position: fixed;
+	width: 100%;
+}
+.nav-link {
 	text-align: center;
 }
-.jumbotron p {
-	color: white;
-	font-size: 26px;
+.dropdown-item {
+	text-align: center;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+	color: #873bce;
+	background-color: #f3edff;
+	border-color: transparent;
+}
+.search-bar {
+	text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link-1:focus {
+	color:#873bce;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+.btn-outline-success {
+  color: #873bce;
+  background-color: transparent;
+  background-image: none;
+  border-color: #873bce;
+}
+.btn-outline-success:hover {
+	color: #fff;
+	border-color: #873bce;
 }
 
+
+
+
+/* content */
+.avoid-pics {
+	max-width: 600px;
+	max-height: 600px;
+}
+.avoid-pics-right {
+	text-align: right;
+	max-width: 600px;
+	float: right;
+}
 .btn-primary {
 	color: #fff;
 	background-color: transparent;
@@ -33,7 +82,90 @@ p {
 	margin-bottom: 5px;
 }
 .btn-primary:hover {
-	color: #27A967;
+	color: #873bce;
 	background-color: white;
 	border-color: white;
+}
+.content {
+	margin-top: 40px;
+}
+.jumbotron {
+	margin: 0;
+	overflow: hidden;
+}
+.jumbotron p {
+	color: white;
+	font-size: 24px;
+}
+.clickable {
+	color: #873bce;
+	border-color: #f7f7f7;
+	width: 100%;
+	padding-top: 100%;
+	overflow: hidden;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: flex;
+    font-color: transparent;
+}
+.clickable:hover {
+	color: #fff;
+	background-image: linear-gradient(to top, #3a5dce, white);;
+	border-color: white;
+	font-color: white;
+}
+.btn-content {
+	padding-top: 40%;
+	padding-bottom: 40%;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font: 'Montserrat';
+	font-size: 30px;
+	opacity: 0;
+	position: absolute;
+}
+.btn-content:hover {
+	opacity: 1;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #873bce;
+}
+
+
+
+/* background */
+.image {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.front-page {
+    background-image: url(belgium.jpg);
+}
+.about-page {
+	background-image: url(me-with-flowers.jpg);
+}
+.about-page-professional {
+	background-image: url(trees.jpg);
+}
+.about-page-personal {
+	background-image: url(me-wincing.jpg);
+}
+.design-page {
+	background-image: url(forest.jpg);
+}
+.design-bear {
+	background-image: url(good-luck-bear.jpg)
+}
+
+.generic-bg {
+	background: black;
 }
