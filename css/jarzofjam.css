@@ -148,7 +148,7 @@ p {
     height: 100vh;
 }
 .front-page {
-    background-image: url(belgium.jpg);
+    background-image: url(belgium.JPG);
 }
 .about-page {
 	background-image: url(me-with-flowers.jpg);
@@ -160,7 +160,7 @@ p {
 	background-image: url(me-wincing.jpg);
 }
 .design-page {
-	background-image: url(forest.jpg);
+	background-image: url(forest.JPG);
 }
 .design-bear {
 	background-image: url(good-luck-bear.jpg)
